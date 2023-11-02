@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "foliage-hero":
-          "url('/assets/layered-leaves-flipped-gradient.jpeg'), linear-gradient(90deg, rgba(255,255,255,0) 5%, rgba(0,0,0,1) 80%)",
+          "linear-gradient(90deg, rgba(255,255,255,0) 15%, rgba(0,0,0,1) 90%), url('../assets/layered-leaves-flipped-gradient3.jpg')",
       },
     },
   },

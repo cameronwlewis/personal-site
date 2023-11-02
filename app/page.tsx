@@ -6,8 +6,8 @@ import Timeline from "@/components/Timeline";
 export default function Home() {
   return (
     <main className="bg-black ">
-      <div className="bg-[url('../assets/layered-leaves-flipped-gradient3.jpg')] bg-auto bg-no-repeat">
-        <div className="bg-gradient-to-b from-black from-2% to-transparent to-10%">
+      <div className="bg-foliage-hero bg-auto bg-no-repeat">
+        <div className="bg-gradient-to-b from-black from-2% to-transparent to-10% ">
           <div className="h-screen container mx-auto ">
             <Menu />
             <div className="mt-40 flex justify-center lg:flex-none lg:justify-end lg:mr-52 lg:mt-52">
