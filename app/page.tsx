@@ -10,8 +10,8 @@ export default function Home() {
         <div className="bg-gradient-to-b from-black from-2% to-transparent to-10%">
           <div className="h-screen container mx-auto ">
             <Menu />
-            <div className="mr-[200px] mt-[200px]">
-              <div className="float-right">
+            <div className="mt-40 flex justify-center lg:flex-none lg:justify-end lg:mr-52 lg:mt-52">
+              <div className="lg:float-right">
                 <Image src={logo} alt={"cameron lewis logo"} />
               </div>
             </div>
