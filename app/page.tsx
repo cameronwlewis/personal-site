@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "../assets/cameron-logo.svg";
-import Menu from "@/components/Menu";
 import Timeline from "@/components/Timeline";
+import Nav from "@/components/nav/Nav";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <div className="bg-foliage-hero bg-auto bg-no-repeat">
         <div className="bg-gradient-to-b from-black from-2% to-transparent to-10% ">
           <div className="h-screen container mx-auto ">
-            <Menu />
+            <Nav />
             <div className="pt-52 flex justify-center md:pt-52 lg:flex-none lg:justify-end lg:mr-52">
               <div className="lg:float-right">
                 <Image src={logo} alt={"cameron lewis logo"} />

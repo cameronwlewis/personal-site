@@ -1,10 +1,11 @@
-import Menu from "@/components/Menu";
+import Nav from "@/components/nav/Nav";
+import Menu from "@/components/nav/_components/TopMenu";
 
 export default function Expertise() {
   return (
     <main className="bg-black text-white">
       <div className="h-screen container mx-auto ">
-        <Menu />
+        <Nav />
         <br />
         <br />
         <br />
