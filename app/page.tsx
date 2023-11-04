@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       {
         <div className="container mx-auto text-white">
-          <h1 className="text-2xl">A classy guy that can't be beat.</h1>
+          <h1 className="text-2xl">A classy guy that cannot be beat.</h1>
           <Timeline />
         </div>
       }

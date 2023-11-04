@@ -21,7 +21,7 @@ const Menu = () => (
     </div>
     <div className="md:hidden">
       {/* <SideMenu /> */}
-      <button className="btn btn-square btn-ghost mt-6 ml-6">
+      <button className="mt-6 ml-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
