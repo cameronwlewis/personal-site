@@ -3,6 +3,7 @@ import logo from "../assets/cameron-logo.svg";
 import Menu from "@/components/Menu";
 import Timeline from "@/components/Timeline";
 
+
 export default function Home() {
   return (
     <main className="bg-black ">
@@ -19,10 +20,10 @@ export default function Home() {
         </div>
       </div>
       {
-        /* <div className="container mx-auto text-white">
-        <h1 className="text-2xl">A classy guy that can't be beat.</h1>
-        <Timeline />
-      </div> */
+        <div className="container mx-auto text-white">
+          <h1 className="text-2xl">A classy guy that can't be beat.</h1>
+          <Timeline />
+        </div>
       }
     </main>
   );

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-const Menu = ({ textColor = "text-white" }) => (
-  <div className={`grid grid-cols-5 font-mono pt-5 ${textColor}`}>
+const Menu = () => (
+  <div className="grid grid-cols-5 font-mono pt-5 text-white">
     {/* eslint-disable-next-line */}
     <Link href={"/"}>// home</Link>
     {/* eslint-disable-next-line */}

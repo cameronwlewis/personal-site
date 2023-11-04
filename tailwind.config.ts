@@ -6,7 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
+    theme: {
     extend: {
       backgroundImage: {
         "foliage-hero":
@@ -14,6 +14,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+plugins: [],
 };
 export default config;
