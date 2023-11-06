@@ -1,7 +1,6 @@
 import Link from "next/link";
-import SideMenu from "./SideMenu";
 
-const TopMenu = () => (
+const TopMenu: React.FC = () => (
   <>
     {/* eslint-disable-next-line */}
     <Link className="flex-auto" href={"/"}>
